@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'show',
+1 verbose cli   'mongidb' ]
+2 info using npm@6.1.0
+3 info using node@v8.11.3
+4 silly mapToRegistry name mongidb
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data { type: 'tag',
+7 silly mapToRegistry   registry: true,
+7 silly mapToRegistry   where: undefined,
+7 silly mapToRegistry   raw: 'mongidb',
+7 silly mapToRegistry   name: 'mongidb',
+7 silly mapToRegistry   escapedName: 'mongidb',
+7 silly mapToRegistry   scope: undefined,
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   saveSpec: null,
+7 silly mapToRegistry   fetchSpec: 'latest',
+7 silly mapToRegistry   gitRange: undefined,
+7 silly mapToRegistry   gitCommittish: undefined,
+7 silly mapToRegistry   hosted: undefined }
+8 silly mapToRegistry uri https://registry.npmjs.org/mongidb
+9 verbose request uri https://registry.npmjs.org/mongidb
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 03:29:12 GMT+0600 (BDT)
+12 verbose request using bearer token for auth
+13 verbose request id 8453b32b3fd1f802
+14 http request GET https://registry.npmjs.org/mongidb
+15 http 404 https://registry.npmjs.org/mongidb
+16 verbose headers { date: 'Sat, 07 Jul 2018 21:29:36 GMT',
+16 verbose headers   'content-type': 'application/json',
+16 verbose headers   'content-length': '21',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'set-cookie':
+16 verbose headers    [ '__cfduid=d0b34405cdb85bd3c3017b9824a654d061530998975; expires=Sun, 07-Jul-19 21:29:35 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+16 verbose headers   'cache-control': 'max-age=300',
+16 verbose headers   'cf-cache-status': 'MISS',
+16 verbose headers   'cf-ray': '436d684edf356f78-SIN',
+16 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 verbose headers   vary: 'accept-encoding, accept',
+16 verbose headers   server: 'cloudflare' }
+17 verbose stack Error: Not found : mongidb
+17 verbose stack     at makeError (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:316:12)
+17 verbose stack     at RegClient.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:14)
+17 verbose stack     at Request._callback (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:14)
+17 verbose stack     at Request.self.callback (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/request/request.js:185:22)
+17 verbose stack     at emitTwo (events.js:126:13)
+17 verbose stack     at Request.emit (events.js:214:7)
+17 verbose stack     at Request.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/request/request.js:1157:10)
+17 verbose stack     at emitOne (events.js:116:13)
+17 verbose stack     at Request.emit (events.js:211:7)
+17 verbose stack     at IncomingMessage.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/request/request.js:1079:12)
+17 verbose stack     at Object.onceWrapper (events.js:313:30)
+17 verbose stack     at emitNone (events.js:111:20)
+17 verbose stack     at IncomingMessage.emit (events.js:208:7)
+17 verbose stack     at endReadableNT (_stream_readable.js:1064:12)
+17 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+17 verbose stack     at process._tickCallback (internal/process/next_tick.js:180:9)
+18 verbose statusCode 404
+19 verbose pkgid mongidb
+20 verbose cwd /data/data/com.termux/files/home/development/nodeApps/template/myPug
+21 verbose Linux 3.18.31-perf-g33ac87a
+22 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "show" "mongidb"
+23 verbose node v8.11.3
+24 verbose npm  v6.1.0
+25 error code E404
+26 error 404 Not found : mongidb
+27 error 404
+28 error 404 'mongidb' is not in the npm registry.
+29 error 404 You should bug the author to publish it (or use the name yourself!)
+30 error 404 Note that you can also install from a
+31 error 404 tarball, folder, http url, or git url.
+32 verbose exit [ 1, true ]

@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'login' ]
+2 info using npm@5.6.0
+3 info using node@v8.11.3
+4 verbose config Skipping project config: /data/data/com.termux/files/home/.npmrc. (matches userconfig)
+5 verbose npm-session aa80064c4c70215f
+6 verbose login before first PUT { _id: 'org.couchdb.user:ahr',
+6 verbose login   name: 'ahr',
+6 verbose login   password: 'XXXXX',
+6 verbose login   type: 'user',
+6 verbose login   roles: [],
+6 verbose login   date: '2018-07-01T23:12:17.557Z' }
+7 http request → PUT https://registry.npmjs.org/-/user/org.couchdb.user:ahr
+8 http 401 ← Unauthorized (https://registry.npmjs.org/-/user/org.couchdb.user:ahr)
+9 verbose adduser before first PUT { _id: 'org.couchdb.user:ahr',
+9 verbose adduser   name: 'ahr',
+9 verbose adduser   password: 'XXXXX',
+9 verbose adduser   email: 'roniy68@gmail.com',
+9 verbose adduser   type: 'user',
+9 verbose adduser   roles: [],
+9 verbose adduser   date: '2018-07-01T23:12:23.742Z' }
+10 http request → PUT https://registry.npmjs.org/-/user/org.couchdb.user:ahr
+11 http 401 ← Unauthorized (https://registry.npmjs.org/-/user/org.couchdb.user:ahr)
+12 verbose stack Error: Unable to authenticate, need: Basic
+13 verbose statusCode 401
+14 verbose cwd /data/data/com.termux/files/home
+15 verbose Linux 3.18.31-perf-g33ac87a
+16 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "login"
+17 verbose node v8.11.3
+18 verbose npm  v5.6.0
+19 error code EAUTHIP
+20 error Unable to authenticate, need: Basic
+21 verbose exit [ 1, true ]
